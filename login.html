@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Login</title>
+	
+	<script type="text/javascript" src="script.js"></script>
+
+	<link rel="stylesheet" href="loginnStyle.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!----------------------------- JS --------------------------->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+<body id="loginBackgroungImage">
+
+	<section class="Form">
+        <div class="container card-transparent">
+        <div class="row">
+            <div class="cold-md-6"> 
+                <img src="images/img1.jpg" alt="CampusLife2" class="img-fluid">
+			</div>
+			
+			<div class="col-lg-7"> 
+
+	<form method="post" autocomplete="off" action="#">
+		<h2 class="details">Login</h2>
+		<table >
+			<tr>
+				<td class="label">
+					Username  
+				</td>
+				<td>
+					:
+				</td>
+				<td>
+					<input type="text" value="cooptest@mail.com" id="username" name="username" placeholder="Your Username">
+				</td>
+			</tr>	
+			<tr>
+				<td class="label">
+					Password 
+				</td>
+				<td>
+					:
+				</td>
+				<td>
+					<input type="password" value="LetsGoCanada2021" id="password" name="password" placeholder="Your Password">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="text-align: center;">
+					<input type="button" id="login" onclick="sendData();" value=" Login ">
+					<p id="result">	</p>
+				</td>
+			</tr>
+		</table>
+	</form>
+	
+	</div>
+
+</div>
+</div>
+	
+</section>
+
+
+</body>
+</html>

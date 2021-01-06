@@ -1,0 +1,13 @@
+/* body {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url('images/CampusLife1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+} */
+
+.container .form-row {
+  justify-content: space-between;
+}
